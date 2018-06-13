@@ -227,7 +227,7 @@ namespace WindowsFormsApp2
             {
                 d += "Critica: " + item.GetCritica() + " Por: " + item.GetNombre();
                 DialogResult m;
-                m = MessageBox.Show(d,"Critica")
+                m = MessageBox.Show(d, "Critica");
 
             }
             Metodos.SerializarCri(C);
