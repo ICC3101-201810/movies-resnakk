@@ -24,6 +24,7 @@ namespace WindowsFormsApp2
             Metodos.SerializarPPS(Metodos.PPS);
             Metodos.SerializarDPS(Metodos.DPS);
             Metodos.SerializarEPS(Metodos.EPS);
+            Metodos.SerializarCri(Metodos.Criticas);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 Bienvenido = new Form1();

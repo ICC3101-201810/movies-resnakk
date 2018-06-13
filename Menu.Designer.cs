@@ -40,6 +40,8 @@
             this.CC = new System.Windows.Forms.ComboBox();
             this.BVer = new System.Windows.Forms.Button();
             this.BSalir = new System.Windows.Forms.Button();
+            this.BCritica = new System.Windows.Forms.Button();
+            this.BVC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LSearch
@@ -146,11 +148,33 @@
             this.BSalir.UseVisualStyleBackColor = true;
             this.BSalir.Click += new System.EventHandler(this.BSalir_Click);
             // 
+            // BCritica
+            // 
+            this.BCritica.Location = new System.Drawing.Point(569, 270);
+            this.BCritica.Name = "BCritica";
+            this.BCritica.Size = new System.Drawing.Size(93, 23);
+            this.BCritica.TabIndex = 20;
+            this.BCritica.Text = "Añadir Critica";
+            this.BCritica.UseVisualStyleBackColor = true;
+            this.BCritica.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BVC
+            // 
+            this.BVC.Location = new System.Drawing.Point(569, 300);
+            this.BVC.Name = "BVC";
+            this.BVC.Size = new System.Drawing.Size(93, 23);
+            this.BVC.TabIndex = 21;
+            this.BVC.Text = "Ver Criticas";
+            this.BVC.UseVisualStyleBackColor = true;
+            this.BVC.Click += new System.EventHandler(this.BVC_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BVC);
+            this.Controls.Add(this.BCritica);
             this.Controls.Add(this.BSalir);
             this.Controls.Add(this.BVer);
             this.Controls.Add(this.CC);
@@ -183,5 +207,7 @@
         private System.Windows.Forms.ComboBox CC;
         private System.Windows.Forms.Button BVer;
         private System.Windows.Forms.Button BSalir;
+        private System.Windows.Forms.Button BCritica;
+        private System.Windows.Forms.Button BVC;
     }
 }

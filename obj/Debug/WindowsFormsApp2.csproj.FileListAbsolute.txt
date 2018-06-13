@@ -31,3 +31,15 @@ C:\Users\Chico_NOTE_2018\Desktop\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\Chico_NOTE_2018\Desktop\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
 C:\Users\Chico_NOTE_2018\Desktop\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
 C:\Users\Chico_NOTE_2018\Desktop\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.Menu.resources
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Chico_NOTE_2018\Desktop\movies-resnakk\obj\Debug\WindowsFormsApp2.Form2.resources

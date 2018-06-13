@@ -74,7 +74,43 @@ namespace WindowsFormsApp2
             new EstudioPelicula(Estudios[1],new List<Pelicula>{ Peliculas[1]}),
             new EstudioPelicula(Estudios[2],new List<Pelicula>{ Peliculas[2]}),
             };
-        
+        public static List<Critica> Criticas = new List<Critica>() {null };
+        public static void SerializarCri(List<Critica> C)
+        {
+            try
+            {
+                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\Criticas.bin");
+                using (Stream stream = File.Open(path, FileMode.Create))
+                {
+                    BinaryFormatter bin = new BinaryFormatter();
+                    bin.Serialize(stream, C);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+        public static List<Critica> DeserializarCri()
+        {
+            List<Critica> C;
+            try
+            {
+                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\Criticas.bin");
+                using (Stream stream = File.Open(path, FileMode.Open))
+                {
+                    BinaryFormatter bin = new BinaryFormatter();
+
+                    C = (List<Critica>)bin.Deserialize(stream);
+                }
+                return C;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                return null;
+            }
+        }
         public static void SerializarPeliculas(List<Pelicula> Peliculas)
         {
             try

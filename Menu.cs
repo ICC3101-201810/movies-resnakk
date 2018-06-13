@@ -212,5 +212,25 @@ namespace WindowsFormsApp2
             Metodos.SerializarEPS(EPS);
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 a = new Form2();
+            a.Show();
+        }
+
+        private void BVC_Click(object sender, EventArgs e)
+        {
+            string d = "";
+            List<Critica> C = Metodos.DeserializarCri();
+            foreach (Critica item in C)
+            {
+                d += "Critica: " + item.GetCritica() + " Por: " + item.GetNombre();
+                DialogResult m;
+                m = MessageBox.Show(d,"Critica")
+
+            }
+            Metodos.SerializarCri(C);
+        }
     }
 }
