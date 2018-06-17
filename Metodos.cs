@@ -74,7 +74,7 @@ namespace WindowsFormsApp2
             new EstudioPelicula(Estudios[1],new List<Pelicula>{ Peliculas[1]}),
             new EstudioPelicula(Estudios[2],new List<Pelicula>{ Peliculas[2]}),
             };
-        public static List<Critica> Criticas = new List<Critica>() {null };
+        public static List<Critica> Criticas = new List<Critica>() {};
         public static void SerializarCri(List<Critica> C)
         {
             try
@@ -539,11 +539,12 @@ namespace WindowsFormsApp2
         }
         public string BuscarEstudio(string Search, string s, List<EstudioPelicula> EPS)
         {
+            bool t = false;
             foreach (EstudioPelicula i in EPS)
             {
                 if (i.GetEstudio().GetNombre().ToLower().Contains(Search.ToLower()))
                 {
-
+                    t = true;
                     s += "Estudio: " + i.GetEstudio().GetNombre();
                     foreach (Pelicula j in i.GetPeliculas())
                     {
@@ -551,7 +552,12 @@ namespace WindowsFormsApp2
                     }
                 }
             }
-            return s;
+
+            if (t == true)
+            {
+                return s;
+            }
+            return "";
         }
 
     }
